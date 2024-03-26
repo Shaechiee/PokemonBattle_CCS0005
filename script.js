@@ -1,7 +1,6 @@
-
-let titlesfx = new Audio('opening.mp3');
-let battlesfx = new Audio('Battle.mp3');
-let victorysfx = new Audio('victory.mp3');
+let titlesfx = new Audio('.mp3');
+let battlesfx = new Audio('.mp3');
+let victorysfx = new Audio('.mp3');
 
 let playerPokemon;
 let enemyPokemon;
@@ -12,11 +11,11 @@ function startButton() {
 	document.getElementById('startbutton').style.zIndex = '-1';
 	document.getElementById('battle').style.visibility = 'visible';
 	document.getElementById('opening').style.zIndex = '1';
-	titlesfx.play();
+	
 	setTimeout(function() {
 		titlesfx.pause();
 		transition();
-	}, 9000);
+	},3000 );
 }
 
 function transition() {
@@ -33,8 +32,7 @@ function transition() {
 	}, 3800)
 }
 
-//Starts the game and sets the beginning pokemon at random
-//Pokemon max of six for enemy and player
+
 function initGame() {
 	for (var i = 0; i < 6; i++) {
 		var tempPokemon = pokemon.splice(Math.floor(Math.random() * pokemon.length), 1)[0];
@@ -62,7 +60,6 @@ function showPokemon(){
 	document.getElementById('attack1').textContent = playerPokemon.moves[0].name;
 	document.getElementById('attack2').textContent = playerPokemon.moves[1].name;
 
-	// This animates the health bar when attacked
 	var percentage = playerPokemon.health / playerPokemon.maxhealth;
 	document.getElementById('player-hp-bar').style.width = ((161 * percentage) + "px");
 	percentage = enemyPokemon.health / enemyPokemon.maxhealth;
@@ -160,7 +157,6 @@ function addListeners() {
 	document.getElementById('attackcancel').addEventListener('click', cancelButton);
 	document.getElementById('attack1').addEventListener('click', attack1);
 	document.getElementById('attack2').addEventListener('click', attack2);
-	// document.getElementById('items').addEventListener('click', potion);
 }
 
 function removeListeners() {
@@ -168,7 +164,6 @@ function removeListeners() {
 	document.getElementById('attackcancel').removeEventListener('click', cancelButton);
 	document.getElementById('attack1').removeEventListener('click', attack1);
 	document.getElementById('attack2').removeEventListener('click', attack2);
-	// document.getElementById('items').removeEventListener('click', potion);
 }
 
 function endGame() {
