@@ -1,6 +1,12 @@
 body{
-    background-color: black;
+	background-image: url(01BG.png);
+	background-size: cover;
+    background-position: center;
+	padding-top: 30px;    
+	width: 100%;
+    height: 80%;
 }
+
 @font-face {
 	font-family: 'pokemon-font';
 	src: url(../assets/fonts/pokemon-font.woff2) format('woff2');
