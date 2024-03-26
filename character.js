@@ -61,16 +61,16 @@ class Pokemon {
 pokemon = [];
 pokemon.push(new Pokemon('PIKACHU', 50, 117, [moves['tackle'], moves['thundershock']], 'pikachu1.gif', 'pikachu2.gif'));
 pokemon.push(new Pokemon('CHARIZARD', 50, 163, [moves['fire blast'], moves['mega punch']], 'charizard1.gif', 'charizard2.gif'));
-pokemon.push(new Pokemon('BLASTOISE', 50, 180, [moves['hydro pump'], moves['skull bash']], 'blastoise1.gif', '.blastoise2.gif'));
-pokemon.push(new Pokemon('KADABRA', 50, 128, [moves['psychic'], moves['rest']], 'kadabra.png', 'kadabraback.png'));
-pokemon.push(new Pokemon('VENUSAUR', 50, 171, [moves['solar beam'], moves['body slam']], 'venusaur.png', '.venusaurback.png'));
+pokemon.push(new Pokemon('BLASTOISE', 50, 180, [moves['hydro pump'], moves['skull bash']], 'blastoise1.gif', 'blastoise2.gif'));
+pokemon.push(new Pokemon('KADABRA', 50, 128, [moves['psychic'], moves['rest']], 'kadabra1.gif', 'kadabra2.gif'));
+pokemon.push(new Pokemon('VENUSAUR', 50, 171, [moves['solar beam'], moves['body slam']], 'venusaur1.gif', '.venusaur2.gif'));
 pokemon.push(new Pokemon('JOLTEON', 50, 152, [moves['quick attack'], moves['thunder']], 'jolteon1.gif', 'jolteon2.gif'));
-pokemon.push(new Pokemon('ARBOK', 50, 133, [moves['acid'], moves['belch']], 'arbok.png', 'arbokback.png'));
-pokemon.push(new Pokemon('SCYTHER', 50, 155, [moves['slash'], moves['hyper beam']], 'scyther.png', 'scytherback.png'));
-pokemon.push(new Pokemon('STARMIE', 50, 146, [moves['hydro pump'], moves['rest']], 'starmie.png', 'starmieback.png'));
-pokemon.push(new Pokemon('HITMONLEE', 50, 138, [moves['hi jump kick'], moves['mega kick']], 'hitmonlee.png', 'hitmonleeback.png'));
-pokemon.push(new Pokemon('HAUNTER', 50, 120, [moves['lick'], moves['psychic']], 'haunter.png', 'haunterback.png'));
-pokemon.push(new Pokemon('MACHAMP', 50, 190, [moves['low sweep'], moves['dynamic punch']], 'machamp.png', 'machampback.png'));
+pokemon.push(new Pokemon('ARBOK', 50, 133, [moves['acid'], moves['belch']], 'arbok1.gif', 'arbok2.gif'));
+pokemon.push(new Pokemon('SCYTHER', 50, 155, [moves['slash'], moves['hyper beam']], 'scyther1.gif', 'scyther2.gif'));
+pokemon.push(new Pokemon('STARMIE', 50, 146, [moves['hydro pump'], moves['rest']], 'starmie1.gif', 'starmie2.gif'));
+pokemon.push(new Pokemon('HITMONLEE', 50, 138, [moves['hi jump kick'], moves['mega kick']], 'hitmonlee1.gif', 'hitmonleeback.gif'));
+pokemon.push(new Pokemon('HAUNTER', 50, 120, [moves['lick'], moves['psychic']], 'haunter1.gif', 'haunter2.gif'));
+pokemon.push(new Pokemon('MACHAMP', 50, 190, [moves['low sweep'], moves['dynamic punch']], 'machamp1.gif', 'machamp2.gif'));
 
 
 let playerParty = [];
