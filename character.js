@@ -59,12 +59,12 @@ class Pokemon {
 };
 
 pokemon = [];
-pokemon.push(new Pokemon('PIKACHU', 50, 117, [moves['tackle'], moves['thundershock']], 'pikachu.png', 'pikachuback.png'));
-pokemon.push(new Pokemon('CHARIZARD', 50, 163, [moves['fire blast'], moves['mega punch']], 'charizard.png', 'charizardback.png'));
-pokemon.push(new Pokemon('BLASTOISE', 50, 180, [moves['hydro pump'], moves['skull bash']], 'blastoise.png', '.blastoiseback.png'));
+pokemon.push(new Pokemon('PIKACHU', 50, 117, [moves['tackle'], moves['thundershock']], 'pikachu1.gif', 'pikachu2.gif'));
+pokemon.push(new Pokemon('CHARIZARD', 50, 163, [moves['fire blast'], moves['mega punch']], 'charizard1.gif', 'charizard2.gif'));
+pokemon.push(new Pokemon('BLASTOISE', 50, 180, [moves['hydro pump'], moves['skull bash']], 'blastoise1.gif', '.blastoise2.gif'));
 pokemon.push(new Pokemon('KADABRA', 50, 128, [moves['psychic'], moves['rest']], 'kadabra.png', 'kadabraback.png'));
 pokemon.push(new Pokemon('VENUSAUR', 50, 171, [moves['solar beam'], moves['body slam']], 'venusaur.png', '.venusaurback.png'));
-pokemon.push(new Pokemon('JOLTEON', 50, 152, [moves['quick attack'], moves['thunder']], 'jolteon.png', 'jolteonback.png'));
+pokemon.push(new Pokemon('JOLTEON', 50, 152, [moves['quick attack'], moves['thunder']], 'jolteon1.gif', 'jolteon2.gif'));
 pokemon.push(new Pokemon('ARBOK', 50, 133, [moves['acid'], moves['belch']], 'arbok.png', 'arbokback.png'));
 pokemon.push(new Pokemon('SCYTHER', 50, 155, [moves['slash'], moves['hyper beam']], 'scyther.png', 'scytherback.png'));
 pokemon.push(new Pokemon('STARMIE', 50, 146, [moves['hydro pump'], moves['rest']], 'starmie.png', 'starmieback.png'));
