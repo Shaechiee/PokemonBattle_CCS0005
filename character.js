@@ -36,7 +36,6 @@ class Pokemon {
 			this.decrementHealth(this.maxhealth * item.damage);
 		}
 	}
-	// Faint function will pull the next pokemon in the array into the battle
 	faint(currentPokemon, party) {
 		var foundPokemon = false;
 		if (this.health <= 0) {
