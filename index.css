@@ -1,7 +1,7 @@
 body{
-	background-image: url(01BG.png);
+	background-color: black;
 	background-size: cover;
-    background-position: center;
+    	background-position: center;
 	padding-top: 30px;    
 	width: 100%;
     height: 80%;
